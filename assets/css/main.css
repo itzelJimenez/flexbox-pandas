@@ -1,0 +1,31 @@
+body{
+	margin:0;
+	padding: 0;
+	height: 100%;
+	width: 100%;
+}
+.container{
+	display: flex;
+	flex-direction: row;
+}
+.cont-log{
+	width: 15%;
+	justify-content: center;
+}
+.logo{
+	width: 30%;
+	height: 57%;
+	border-radius:50%;
+	align-items: center;
+	margin:auto 0;
+}
+.cont-title{
+	width: 30%;
+	align-items: center;
+}
+nav{
+	width: 50%;
+	align-items: center;
+	justify-content: space-between;
+	flex-wrap: flex-end;
+}
