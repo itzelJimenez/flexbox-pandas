@@ -15,7 +15,7 @@ body{
 }
 .logo{
 	width: 30%;
-	height: 57%;
+	height: 50%;
 	border-radius:50%;
 	align-items: center;
 	margin:auto 0;
@@ -26,17 +26,38 @@ body{
 }
 nav{
 	width: 50%;
+	height: 100px;
 	align-items: center;
 	justify-content: space-between;
 	flex-wrap: flex-end;
 }
+a{
+	text-decoration: none;
+
+}
+.cont-img{
+	justify-content: space-around;
+}
+.cont-img>div{
+	width: 20%;
+}
 img{
-	width: 80%;
+	width: 95%;
 	height: 80%;
+}
+div>span{
+	position: absolute;
+	margin-top: 0%;
+	color: #fff;
+}
+div>span:hover{
+	cursor: pointer;
+	color: gray;
 }
 .cont-butt{
 	align-items: center;
 	justify-content: space-around;
+	height: 150px;
 }
 .cont-text{
 	align-items: center;
