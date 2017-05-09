@@ -102,7 +102,16 @@ button:hover{
 	height: 400px;
 	width: 100%;
 }
-
+footer{
+	background-color: rgb(60, 179, 113);
+}
+footer>ul>li>a{
+	color: white;
+	font-weight: 700;
+}
+footer>ul>li>a:hover{
+	color: black;
+}
 .cont-p{
 	text-align: justify;
 	width: 40%;
@@ -114,12 +123,11 @@ button:hover{
 }
 .logo-footer{
 	width: 60%;
-	height: 30%;
+	height: 80%;
 	border-radius: 20px;
 }
 ul{
 	width: 70%;
-	height: 200px;
 	justify-content: space-around;
 	align-items: center;
 }
@@ -130,4 +138,6 @@ li{
 	width: 100%;
 	align-items: center;
 	justify-content: center;
+	background-color: black;
+	color:white;
 }
