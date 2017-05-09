@@ -25,4 +25,25 @@ function restr(){
 	}
 }
 
-buttRestr.addEventListener("click", restr)
+function mostrarOrign(){
+	if(click==1){
+		origen.style.visibility="hidden";
+		click=click+1;
+	}else{
+		origen.style.visibility="initial";
+		click=1;
+	}
+}
+function mostrarExtcn(){
+	if(click==1){
+		extincion.style.visibility="hidden";
+		click=click+1;
+	}else{
+		extincion.style.visibility="initial";
+		click=1;
+	}
+}
+
+buttRestr.addEventListener("click", restr);
+buttOrign.addEventListener("click", mostrarOrign);
+buttExtcn.addEventListener("click", mostrarExtcn);

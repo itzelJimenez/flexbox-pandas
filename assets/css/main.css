@@ -69,7 +69,7 @@ img{
 	margin-top: 0%;
 	color: #fff;
 }
-div>p:hover{
+.cont-img>div>p:hover{
 	cursor: pointer;
 	background-color: black;
 }
