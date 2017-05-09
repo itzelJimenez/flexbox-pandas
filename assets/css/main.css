@@ -4,9 +4,14 @@ body{
 	height: 100%;
 	width: 100%;
 }
+header{
+	background-color: rgba(60, 179, 113, .90);
+	position: fixed;
+	width: 100%;
+	z-index: 7;
+}
 .container{
 	display: flex;
-	
 	flex-direction: row;
 }
 .cont-log{
@@ -30,38 +35,71 @@ nav{
 	align-items: center;
 	justify-content: space-between;
 	flex-wrap: flex-end;
+	font-size: 19px;
 }
 a{
 	text-decoration: none;
-
+	color: black;
+}
+.link-nav{
+	padding: 10px 15px;
+	border-radius: 10px;
+	border: solid white 2px;
+	color: black;
+	font-weight: 600;
+}
+.link-nav:hover{
+	background-color: rgba(46, 139, 87, 20);
+	color: black;
+	font-weight: 600;
 }
 .cont-img{
 	justify-content: space-around;
+	align-items: center;
+	height: 430px;
 }
 .cont-img>div{
 	width: 20%;
 }
 img{
-	width: 95%;
-	height: 80%;
+	width: 100%;
 }
-div>span{
+.cont-img>div>p{
 	position: absolute;
 	margin-top: 0%;
 	color: #fff;
 }
-div>span:hover{
+div>p:hover{
 	cursor: pointer;
-	color: gray;
+	background-color: black;
 }
 .cont-butt{
-	align-items: center;
+	align-items: flex-start;
 	justify-content: space-around;
-	height: 150px;
+}
+button{
+	background-color: white;
+	border: solid black 2px;
+	border-radius: 30px;
+	padding: 15px 30px;
+	font-weight: 700;
+	font-size: 15px;
+	margin-top: -60px;
+}
+button:hover{
+	background-color: rgba(60, 179, 113, .90);
+	border: solid white 2px;
+	border-radius: 30px;
+	color: white;
+	padding: 15px 30px;
+	font-weight: 700;
+	font-size: 15px;
+	cursor: pointer;
 }
 .cont-text{
 	align-items: center;
 	justify-content: space-around;
+	height: 400px;
 	width: 100%;
 }
 
